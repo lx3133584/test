@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  public.dbversion
+WHERE
+  "entity" ilike '%{{Select1.filterText}}%'

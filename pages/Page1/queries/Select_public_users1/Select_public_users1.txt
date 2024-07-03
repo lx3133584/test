@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  public.users
+WHERE
+  "name" ilike '%{{Select1.filterText}}%'
